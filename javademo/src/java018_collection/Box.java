@@ -1,0 +1,23 @@
+package java018_collection;
+
+public class Box<T> {
+	private T data;
+
+	public Box() {
+		
+	}
+	
+	public Box(T data) {
+		this.data = data;
+		
+	}
+	           //외부에서 값을 넘겨줌
+	public void setData(T data) {
+		this.data=data;
+	}
+	
+	public T getData() {
+		return data;
+	}
+	
+}
